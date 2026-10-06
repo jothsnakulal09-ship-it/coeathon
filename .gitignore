@@ -1,0 +1,57 @@
+# ──────────────────────────────────────────────
+# SECRETS & ENVIRONMENT  (NEVER commit these)
+# ──────────────────────────────────────────────
+.env
+*.env
+backend/.env
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+
+# ──────────────────────────────────────────────
+# PYTHON
+# ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+
+# ──────────────────────────────────────────────
+# DATABASE
+# ──────────────────────────────────────────────
+*.sqlite3
+*.db
+study_planner.db
+backend/study_planner.db
+
+# ──────────────────────────────────────────────
+# NODE / FRONTEND
+# ──────────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.vite/
+frontend/.vite/
+
+# ──────────────────────────────────────────────
+# UPLOADS (user files - not tracked)
+# ──────────────────────────────────────────────
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# ──────────────────────────────────────────────
+# OS / IDE
+# ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
